@@ -46,11 +46,11 @@ Executive SummaryIn machine learning, leveraging graph topology (relational data
 
 ## Experimental Design 
 
-🔹**Seed Protocol:** Multi-seed evaluation using 10 fixed random seeds ([42, 100, 7, 99, 123, 456, 789, 321, 654, 987]) to eliminate initialization bias and report standard deviation.
+🔹 **Seed Protocol:** Multi-seed evaluation using 10 fixed random seeds (`[42, 100, 7, 99, 123, 456, 789, 321, 654, 987]`) to eliminate initialization bias and report standard deviation.
 
-🔹**Training Hyperparameters:** 200 epochs per run, Adam optimizer ($\text{lr}=0.01$, $\text{weight\_decay}=5\times 10^{-4}$), Dropout rate $p=0.5$.
+🔹 **Training Hyperparameters:** 200 epochs per run, Adam optimizer (`lr` = 0.01, `weight_decay` = 5e-4), Dropout rate $p = 0.5$.
 
-🔹**Systems Benchmark:** Inference latency measured as the warm-started mean over 100 evaluation forward passes. Parameter counts calculated via trainable model weight counts (numel).
+🔹 **Systems Benchmark:** Inference latency measured as the warm-started mean over 100 evaluation forward passes. Parameter counts calculated via trainable model weight counts (`numel`).
 
 
 ## Repository Structure & Quickstart
