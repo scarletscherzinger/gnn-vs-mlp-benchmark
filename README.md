@@ -1,6 +1,8 @@
 # Evaluating the Utility of Graph Structure: Accuracy vs. Inference-Cost Benchmarks on Cora
 
-Executive SummaryIn machine learning, leveraging graph topology (relational data between entities) often improves predictive performance over tabular or feature-only models. However, in production environments, graph neural networks (GNNs) introduce systems overhead such as neighbor data fetching and aggregation latency.This project rigorously benchmarks three architectures on the **Cora citation dataset** to quantify the trade-off between **predictive accuracy** and **systems performance (inference latency and model parameter scale):**
+## Executive Summary
+
+In machine learning, leveraging graph topology (relational data between entities) often improves predictive performance over tabular or feature-only models. However, in production environments, graph neural networks (GNNs) introduce systems overhead such as neighbor data fetching and aggregation latency.This project rigorously benchmarks three architectures on the **Cora citation dataset** to quantify the trade-off between **predictive accuracy** and **systems performance (inference latency and model parameter scale):**
 
 1. **Multi-Layer Perceptron (MLP):** Baseline non-graph model (feature-only).
 2. **Graph Convolutional Network (GCN):** Full-neighborhood message-passing model.
