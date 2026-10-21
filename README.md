@@ -11,11 +11,11 @@ In machine learning, leveraging graph topology (relational data between entities
 
 ## Key Experimental Results
 
-| Model | Test Accuracy (%) | Parameters | Latency (ms) | Relative Latency |
-| :--- | :--- | :--- | :--- | :--- |
-| **MLP (No Graph)** | 51.88 ± 3.15 | 929 | 4.05 ± 0.58 | 1.0x |
-| **GCN** | 78.50 ± 1.42 | 309 | 6.15 ± 0.68 | 1.5x |
-| **GraphSAGE** | 79.20 ± 1.25 | 618 | 56.28 ± 9.33 | 13.9x |
+| Model | Test Accuracy (%) | Parameters | Latency (ms) |
+| :--- | :--- | :--- | :--- |
+| **MLP (No Graph)** | 51.88 ± 3.15 | 23,063 | 4.05 ± 0.58 |
+| **GCN** | 78.50 ± 1.42 | 23,063 | 6.15 ± 0.68 |
+| **GraphSAGE** | 79.20 ± 1.25 | 46,103 | 56.28 ± 9.33 |
 
 
 ## Quantitative Takeaways & Systems Analysis 
